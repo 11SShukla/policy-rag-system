@@ -1,4 +1,4 @@
-** Policy RAG System **
+**Policy RAG System**
 
 
 This project implements a policy-aware Retrieval-Augmented Generation (RAG) system designed to answer questions from government and regulatory documents such as RBI circulars. Instead of relying purely on LLM knowledge, the system retrieves relevant policy fragments using hybrid search (vector embeddings + BM25) and generates grounded answers with explicit source citations.
