@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.bharatX/
+bharatX/
+.env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Data and storage
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Qdrant/Vector store runtime
+qdrant_storage/
+
+# Large local files
+*.pkl
+*.joblib
+
+# OneDrive temp
+~$*
+
+# Ignore generated files from runs
+runs/
+output/
+
+# Optional local config
+*.local
+
+# Test folders and artifacts
+test*/
+**/test*/
+*.pytest_cache/
+
+# Keep evaluation data in repo if needed; remove if not
+evaluation_data.json

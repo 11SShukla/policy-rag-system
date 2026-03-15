@@ -1,0 +1,11 @@
+pymupdf
+sentence-transformers
+qdrant-client
+rank_bm25
+fastapi
+uvicorn
+groq
+python-dotenv
+pytesseract
+pillow
+opencv-python
